@@ -6,6 +6,12 @@
   height: auto;
   text-align: center;
 }
+p,h1{
+  color: white;
+}
+#footer p{
+  color: black;
+}
 #wreath{
   //border: thin solid black;
   margin-top: -260px;
@@ -13,6 +19,7 @@
 }
 #title{
   //border: thin solid black;
+  color:black;
   font-family: 'Nanum Gothic Coding', monospace;
   margin-top: 10px;
   margin-left: 40px;
@@ -43,7 +50,8 @@ li:hover{
 #content{
   //border: thin solid black;
   display: flex;
-  justify-content: space-evenly;
+  flex-flow: wrap;
+  justify-content: space-around;
   width:auto;
   height: auto;
 }
@@ -57,4 +65,10 @@ li:hover{
   width: 400px;
   margin-left: 20px;
   background-color: #6AA581;
+}
+#blog{
+  padding-top: 60px;
+}
+#footer{
+  padding-top: 60px;
 }
