@@ -10,8 +10,15 @@
     <!--CSS-->
     <link href="css/style.css" rel="stylesheet">
 
+    <!--Javascript-->
+    <script src="js/script.js"></script>
+
+    <!--ISM-->
+    <link rel="stylesheet" href="vendor/ism/css/my-slider.css"/>
+    <script src="vendor/ism/js/ism-2.2.min.js"></script>
+
     <!-- Google Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding|Audiowide|Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding|Audiowide|Lobster|Karma" rel="stylesheet">
 
     <!--Font Awesome-->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -26,29 +33,59 @@
     <meta property="og:url" content="http://www.thirteentenstudios.com"/>
     <meta property="og:image" content=""/>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112383684-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'UA-112383684-1');
-    </script>
+    </script> -->
   </head>
 
   <body>
     <div id="main">
-      <h1 id="title">1310 Studios</h1>
-      <img src="img/title_image.png">
+      <div id="header">
+        <h1 id="title">1310 Studios</h1>
+        <img id="wreath" src="img/title_image.png">
+      </div>
       <div id="nav">
+        <img src="img/left_nav.png">
         <ul>
           <!--<li><img src="img/left_nav.png"></li>-->
-          <li>About</li>
-          <li>Designs</li>
-          <li>Contact</li>
-          <li>Blog</li>
+          <li>ABOUT</li>
+          <li>DESIGNS</li>
+          <li>CONTACT</li>
+          <li>BLOG</li>
           <!--<li><img src="img/right_nav.png"></li>-->
         </ul>
+        <img src="img/right_nav.png">
+      </div>
+      <div id="content">
+        <div id="slides">
+          <div class="ism-slider" data-transition_type="fade" id="my-slider">
+            <ol>
+              <li>
+                <img src="vendor/ism/image/slides/_u/1519668947576_550575.jpg">
+              </li>
+              <li>
+                <img src="vendor/ism/image/slides/_u/1519668950456_119291.jpg">
+              </li>
+              <li>
+                <img src="vendor/ism/image/slides/_u/1519668945048_325595.jpg">
+              </li>
+              <li>
+                <img src="vendor/ism/image/slides/_u/1519668939168_272264.jpg">
+              </li>
+              <li>
+                <img src="vendor/ism/image/slides/_u/1519668925677_748901.jpg">
+              </li>
+              <li>
+                <img src="vendor/ism/image/slides/_u/1519669166011_819901.jpg">
+              </li>
+            </ol>
+          </div>
+        </div>
       </div>
     </div>
   </body>
