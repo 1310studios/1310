@@ -22,9 +22,18 @@
 
     <!--Font Awesome-->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!--favicon-->
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <!--Unite Gallery-->
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+		<script type='text/javascript' src='vendor/unitegallery/dist/js/unitegallery.min.js'></script>
+		<link rel='stylesheet' href='vendor/unitegallery/source/unitegallery/css/unite-gallery.css' type='text/css' />
+		<script type='text/javascript' src='vendor/unitegallery/source/unitegallery/themes/tiles/ug-theme-tiles.js'></script>
+		<link rel='stylesheet' href='vendor/unitegallery/source/unitegallery/themes/default/ug-theme-default.css' type='text/css' />
+
     <!--OG-->
     <meta name="twitter:card" content="summary" />
     <meta property="og:title" content="1310 Studios"/>
@@ -64,7 +73,25 @@
 
         <div id="blog">
           <!-- https://github.com/vvvmax/unitegallery/ -->
-          <img src="img/collections.png">
+          <div id="gallery" style="display:none;">
+            <img alt="Image Title" src="img/collections/1.jpg" data-image="img/collections/1.jpg" data-description="Description Text">
+            <img alt="Image Title" src="img/collections/2.jpg" data-image="img/collections/2.jpg" data-description="Description Text">
+            <img alt="Image Title" src="img/collections/3.jpg" data-image="img/collections/3.jpg" data-description="Description Text">
+            <img alt="Image Title" src="img/collections/4.jpg" data-image="img/collections/4.jpg" data-description="Description Text">
+            <img alt="Image Title" src="img/collections/5.jpg" data-image="img/collections/5.jpg" data-description="Description Text">
+            <img alt="Image Title" src="img/collections/6.jpg" data-image="img/collections/6.jpg" data-description="Description Text">
+            <img alt="Image Title" src="img/collections/7.jpg" data-image="img/collections/7.jpg" data-description="Description Text">
+            <img alt="Image Title" src="img/collections/8.jpg" data-image="img/collections/8.jpg" data-description="Description Text">
+            <img alt="Image Title" src="img/collections/9.jpg" data-image="img/collections/9.jpg" data-description="Description Text">
+            <img alt="Image Title" src="img/collections/10.jpg" data-image="img/collections/10.jpg" data-description="Description Text">
+            <img alt="Image Title" src="img/collections/11.jpg" data-image="img/collections/11.jpg" data-description="Description Text">
+          </div>
+          <script type="text/javascript">
+          jQuery(document).ready(function(){
+            jQuery("#gallery").unitegallery();
+          });
+         </script>
+          <!--<img src="img/collections.png">-->
           <!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/f95cc6659fc4529cbf124d2860639b8a.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 900px; border: 0; overflow: hidden;"></iframe>
         </div>
         <div id="footer">
