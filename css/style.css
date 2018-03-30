@@ -2,9 +2,18 @@
   //border: thin solid black;
   display: block;
   width: 900px;
+  height: 100%;
   margin: 0 auto;
   height: auto;
   text-align: center;
+}
+#header{
+  height: 290px;
+}
+body{
+  /*to fix modifcations from bootstrap in contact.html*/
+  margin: 8px;
+  line-height: normal;
 }
 p,h1{
   color: white;
@@ -43,7 +52,8 @@ a:visited {
 }
 #nav ul{
   //border: thin solid black;
-  margin-left: -50px;
+  margin: 0px;
+  padding: 0px;
 }
 #nav li{
   //border: thin solid black;
@@ -79,8 +89,22 @@ li:hover{
   background-color: #6AA581;
 }
 #blog{
-  padding-top: 60px;
+  //padding-top: 60px;
+  width: 900px;
+  height: 200px;
+}
+#contact{
+  //border: thin solid black;
+  margin-top: 20px;
+  width: 900px;
+  height: 300px;
+}
+#collections{
+  width: 900px;
+
 }
 #footer{
+  //border: thin solid black;
   padding-top: 60px;
+  width: 900px;
 }

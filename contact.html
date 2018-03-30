@@ -6,6 +6,12 @@
     <meta name="description" content="1310 Studios">
 
     <title>1310 Studios</title>
+    <!-- jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!--Bootstrap 3-->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <!--CSS-->
     <link href="css/style.css" rel="stylesheet">
@@ -64,13 +70,67 @@
       <div id="content">
 
 
-        <div id="blog">
-          <form id="rendered-form"><div class="rendered-form"><div class="fb-radio-group form-group field-radio-group-1522187292333"><label for="radio-group-1522187292333" class="fb-radio-group-label">How Can We Help?</label><div class="radio-group"><div class="radio"><input name="radio-group-1522187292333" id="radio-group-1522187292333-0" value="option-1" type="radio"><label for="radio-group-1522187292333-0">General Inquiry</label></div><div class="radio"><input name="radio-group-1522187292333" id="radio-group-1522187292333-1" value="option-2" type="radio"><label for="radio-group-1522187292333-1">Commission Custom Print</label></div></div></div><div class="fb-text form-group field-text-1522187364890"><label for="text-1522187364890" class="fb-text-label">E-Mail<span class="fb-required">*</span></label><input type="text" class="form-control" name="text-1522187364890" id="text-1522187364890" required="required" aria-required="true"></div><div class="fb-textarea form-group field-textarea-1522187381286"><label for="textarea-1522187381286" class="fb-textarea-label">Message<span class="fb-required">*</span></label><textarea type="textarea" class="form-control" name="textarea-1522187381286" id="textarea-1522187381286" required="required" aria-required="true"></textarea></div></div></form>
+        <div id="contact">
+          <!--Bootstrap3 Form-->
+          <form class="form-horizontal">
+          <fieldset>
 
-          <!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/f95cc6659fc4529cbf124d2860639b8a.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 900px; border: 0; overflow: hidden;"></iframe>
+          <!-- Form Name -->
+          <legend>How Can We Help?</legend>
+
+          <!-- Multiple Radios -->
+          <div class="form-group">
+           <label class="col-md-4 control-label" for="radios"></label>
+           <div class="col-md-4">
+           <div class="radio">
+             <label for="radios-0">
+               <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
+               General Inquiry
+             </label>
+           </div>
+           <div class="radio">
+             <label for="radios-1">
+               <input type="radio" name="radios" id="radios-1" value="2">
+               Commission Custom Print
+             </label>
+           </div>
+           </div>
+          </div>
+
+          <!-- Text input-->
+          <div class="form-group">
+           <label class="col-md-4 control-label" for="textinput"></label>
+           <div class="col-md-4">
+           <input id="textinput" name="textinput" type="text" placeholder="Your E-Mail" class="form-control input-md" required="">
+
+           </div>
+          </div>
+
+          <!-- Textarea -->
+          <div class="form-group">
+           <label class="col-md-4 control-label" for="Message"></label>
+           <div class="col-md-4">
+             <textarea class="form-control" id="Message" name="Message" placeholder="Your Message"></textarea>
+           </div>
+          </div>
+
+          <!-- Button -->
+          <div class="form-group">
+           <label class="col-md-4 control-label" for="singlebutton"></label>
+           <div class="col-md-4">
+             <button id="singlebutton" name="singlebutton" class="btn btn-primary">Send</button>
+           </div>
+          </div>
+
+          </fieldset>
+          </form>
+
         </div>
+
         <div id="footer">
-          <a href="https://www.instagram.com/1310_studios/"><p><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></p></a>
+          <a href="https://www.instagram.com/1310_studios/"><p><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></p></a>
+          <!-- LightWidget WIDGET --><!--<script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/f95cc6659fc4529cbf124d2860639b8a.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 900px; border: 0; overflow: hidden;"></iframe>-->
+          <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/aea95f4f8fae50c997b00e203391eb0e.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
           <p>Copyright © 1310 Studios 2018</p>
         </div>
       </div>
