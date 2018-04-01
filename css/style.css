@@ -89,15 +89,16 @@ li:hover{
   background-color: #6AA581;
 }
 #blog{
-  //padding-top: 60px;
+  padding-top: 60px;
   width: 900px;
-  height: 200px;
+  height: 380px;
 }
 #contact{
   //border: thin solid black;
   margin-top: 20px;
   width: 900px;
   height: 300px;
+  text-align: left;
 }
 #collections{
   width: 900px;
