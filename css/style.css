@@ -58,7 +58,7 @@ a:visited {
 #nav li{
   //border: thin solid black;
   list-style: none;
-  display: inline;
+  display: inline-block;
   font-family: 'Berkshire Swash', cursive;
   text-decoration: none;
   //font-family: 'Karma', cursive;
