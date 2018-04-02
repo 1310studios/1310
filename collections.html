@@ -74,7 +74,7 @@
         <div id="collections">
           <!-- https://github.com/vvvmax/unitegallery/ | http://unitegallery.net/ -->
           <div id="gallery" style="display:none;">
-            <img alt="Image Title" src="img/collections/1.jpg" data-image="img/collections/1.jpg" data-description="Description Text">
+            <a href="https://www.etsy.com/listing/601371111/wedding-table-numbers-vines"><img alt="Wedding Table Numbers (Vines)" src="img/collections/1.jpg" data-image="img/collections/1.jpg" data-description="Wedding Table Numbers (Vines)"></a>
             <img alt="Image Title" src="img/collections/2.jpg" data-image="img/collections/2.jpg" data-description="Description Text">
             <img alt="Image Title" src="img/collections/3.jpg" data-image="img/collections/3.jpg" data-description="Description Text">
             <img alt="Image Title" src="img/collections/4.jpg" data-image="img/collections/4.jpg" data-description="Description Text">
@@ -94,10 +94,25 @@
             <img alt="Image Title" src="img/collections/18.jpg" data-image="img/collections/18.jpg" data-description="Description Text">
             <img alt="Image Title" src="img/collections/19.jpg" data-image="img/collections/19.jpg" data-description="Description Text">
             <img alt="Image Title" src="img/collections/20.jpg" data-image="img/collections/20.jpg" data-description="Description Text">
+            <img alt="Image Title" src="img/collections/21.jpg" data-image="img/collections/21.jpg" data-description="Description Text">
           </div>
           <script type="text/javascript">
           jQuery(document).ready(function(){
-            jQuery("#gallery").unitegallery();
+            jQuery("#gallery").unitegallery({
+              gallery_width:"100%",
+              tile_border_color:"#7a7a7a",
+              tile_outline_color:"#8B8B8B",
+              tile_enable_shadow:true,
+              tile_shadow_color:"#8B8B8B",
+              tile_overlay_opacity:0.3,
+              tile_show_link_icon:true,
+              tile_image_effect_type:"sepia",
+              tile_image_effect_reverse:true,
+              tile_enable_textpanel:true,
+              lightbox_textpanel_title_color:"e5e5e5",
+              tiles_col_width:230,
+              tiles_space_between_cols:20
+            });
           });
          </script>
         </div>

@@ -20,6 +20,7 @@ p,h1{
 }
 #footer p{
   color: black;
+  font-size: 12px;
 }
 #wreath{
   //border: thin solid black;
@@ -84,8 +85,8 @@ li:hover{
   //border: thin solid black;
   margin-top: 60px;
   border-radius: 2px;
-  width: 400px;
-  margin-left: 20px;
+  width: 450px;
+  margin-left: 5px;
   background-color: #6AA581;
 }
 #blog{
