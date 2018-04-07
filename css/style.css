@@ -39,8 +39,9 @@ p,h1{
   //border: thin solid black;
   display: flex;
   justify-content: center;
-  width: 900px;
-  height: 65px;
+  //width: 900px;
+  //height: 65px;
+  width: 100%;
 }
 #nav a:link {
     color: black;
